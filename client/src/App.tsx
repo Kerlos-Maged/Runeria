@@ -1,30 +1,5 @@
 
-const runes = [
-  {
-    symbol: "ᚠ", // Fehu
-    name: "Fehu",
-    meaning: "Wealth, Abundance",
-  },
-  {
-    symbol: "ᚢ", // Uruz
-    name: "Uruz",
-    meaning: "Strength, Health",
-  },
-  {
-    symbol: "ᚦ", // Thurisaz
-    name: "Thurisaz",
-    meaning: "Protection, Challenge",
-  },
-  {
-    symbol: "ᚨ", // Ansuz
-    name: "Ansuz",
-    meaning: "Wisdom, Communication",
-  },
-];
-
-
-// Elder Futhark runes for 'Runeria': ᚱᚢᚾᛖᚱᛁᚨ
-const runeriaRunes = "ᚱᚢᚾᛖᚱᛁᚨ";
+// Elder Futhark runes for 'Runeria': ᚱᚢᚾᛖᚱᛁᚨconst runeriaRunes = "ᚱᚢᚾᛖᚱᛁᚨ";
 
 const floatingRunes = [
   { symbol: "ᚠ", style: "left-10 top-20 animate-float1 text-4xl text-[#bfa76f]/60" },
