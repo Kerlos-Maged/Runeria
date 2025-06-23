@@ -1,6 +1,5 @@
 
 // Elder Futhark runes for 'Runeria': ᚱᚢᚾᛖᚱᛁᚨconst runeriaRunes = "ᚱᚢᚾᛖᚱᛁᚨ";
-
 const floatingRunes = [
   { symbol: "ᚠ", style: "left-10 top-20 animate-float1 text-4xl text-[#bfa76f]/60" },
   { symbol: "ᚢ", style: "right-16 top-32 animate-float2 text-5xl text-[#e7d7b6]/50" },
@@ -37,7 +36,6 @@ export default function App() {
       </div>
       <div className="max-w-2xl w-full flex flex-col items-center p-10 rounded-2xl shadow-2xl bg-[#23201a]/80 border border-[#bfa76f]/60 z-10">
         <h1 className="text-6xl font-extrabold text-[#bfa76f] mb-2 drop-shadow-lg tracking-widest font-serif text-center select-none" title="Runeria">
-          {runeriaRunes}
         </h1>
         <h2 className="text-xl text-[#e7d7b6] mb-6 italic text-center font-serif drop-shadow-[0_0_8px_#bfa76f66]">
           <span className="tracking-widest text-[#bfa76f] font-bold">Runeria</span> — The Ancient Rune Arena
