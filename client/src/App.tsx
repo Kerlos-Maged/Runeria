@@ -1,4 +1,3 @@
-import { useState } from "react";
 
 const runes = [
   {
@@ -23,11 +22,6 @@ const runes = [
   },
 ];
 
-const question = {
-  text: "Which rune symbolizes 'Wealth and Abundance'?",
-  options: runes,
-  answer: "Fehu",
-};
 
 // Elder Futhark runes for 'Runeria': ᚱᚢᚾᛖᚱᛁᚨ
 const runeriaRunes = "ᚱᚢᚾᛖᚱᛁᚨ";
